@@ -1,0 +1,549 @@
+{
+  "site": {
+    "title": "DLRN — Minecraft сервер",
+    "ip": "mc.dlrn.ru"
+  },
+  "hero": {
+    "eyebrow": "Minecraft сервер открыт",
+    "title1": "Твой мир.",
+    "title2": "Твои правила.",
+    "text": "DLRN — место, где выживание, экономика и приключения соединяются в одном Minecraft-мире.",
+    "headPhrase": "Хватит мне мозги того-этого",
+    "blocks": []
+  },
+  "about": {
+    "title1": "Не просто сервер.",
+    "title2": "Своя атмосфера.",
+    "paragraphs": [
+      "DLRN создан для тех, кто хочет играть с друзьями, развиваться, строить масштабные проекты и оставлять свой след в общем мире.",
+      "Мы делаем упор на стабильность, честную игру и сообщество. Без лишней суеты — только Minecraft и люди, с которыми хочется играть."
+    ],
+    "blocks": [],
+    "gallery": {
+      "interval": "2",
+      "visible": "auto",
+      "fit": "cover",
+      "captions": "show",
+      "items": [
+        {
+          "url": "/uploads/ae17e29d-2026-07-28_02_17_49.jpg",
+          "caption": ""
+        },
+        {
+          "url": "/uploads/16496767-2026-08-22_14_19_25.jpg",
+          "caption": ""
+        },
+        {
+          "url": "/uploads/54167621-2026-08-24_01_45_21.png",
+          "caption": ""
+        },
+        {
+          "url": "/uploads/5836214e-2026-09-13_18_58_58.jpg",
+          "caption": ""
+        },
+        {
+          "url": "/uploads/29a80ae9-2026-09-13_18_59_20.jpg",
+          "caption": ""
+        },
+        {
+          "url": "/uploads/b071cc28-2026-09-19_00_26_48.jpg",
+          "caption": ""
+        },
+        {
+          "url": "/uploads/cbf30180-2026-10-02_13_28_30.png",
+          "caption": ""
+        }
+      ]
+    }
+  },
+  "socials": [
+    {
+      "name": "Discord",
+      "desc": "Сообщество и новости",
+      "url": "https://discord.gg/xjdZz4PSjU"
+    },
+    {
+      "name": "YouTube",
+      "desc": "Видео и контент DLRN",
+      "url": "https://www.youtube.com/@DLRNms"
+    },
+    {
+      "name": "Boosty",
+      "desc": "Поддержать проект",
+      "url": "https://boosty.to/dlrn"
+    }
+  ],
+  "features": {
+    "title": "Что ждёт тебя на DLRN",
+    "items": [
+      {
+        "icon": "⚔",
+        "title": "Выживание",
+        "text": "Классический survival с современной инфраструктурой и комфортными механиками.",
+        "blocks": [],
+        "bg": ""
+      },
+      {
+        "icon": "◆",
+        "title": "Экономика",
+        "text": "Создавай магазины, зарабатывай, торгуй с игроками и развивай собственную империю.",
+        "blocks": [],
+        "bg": ""
+      },
+      {
+        "icon": "⌂",
+        "title": "Защита территорий",
+        "text": "Строй спокойно — твои территории и имущество защищены от гриферов.",
+        "blocks": [],
+        "bg": ""
+      },
+      {
+        "icon": "★",
+        "title": "События",
+        "text": "Регулярные ивенты, конкурсы и активности для всего сервера.",
+        "blocks": [],
+        "bg": ""
+      },
+      {
+        "icon": "♟",
+        "title": "Комьюнити",
+        "text": "Знакомься с игроками, создавай команды и вместе развивайте мир.",
+        "blocks": [],
+        "bg": ""
+      },
+      {
+        "icon": "✦",
+        "title": "Развитие",
+        "text": "Сервер постоянно обновляется и получает новые механики по предложениям игроков.",
+        "blocks": [],
+        "bg": ""
+      }
+    ],
+    "blocks": []
+  },
+  "join": {
+    "title": "Готов войти?",
+    "text": "Скопируй IP, запусти Minecraft и присоединяйся к DLRN.",
+    "blocks": [],
+    "notice": {
+      "title": "Вход по проходке",
+      "text": "Чтобы зайти на сервер, нужно оплатить проходку на Boosty. После оплаты скопируйте IP и заходите в игру.",
+      "buttonLabel": "Оплатить проходку",
+      "buttonUrl": "https://boosty.to/dlrn"
+    }
+  },
+  "rules": {
+    "title": "Правила сервера",
+    "discord": {
+      "title": "",
+      "items": [],
+      "blocks": [],
+      "bg": "",
+      "hidden": true
+    },
+    "minecraft": {
+      "title": "Правила сервера Minecraft",
+      "basic": [
+        "Не убивать просто так игроков.",
+        "Не гриферить.",
+        "Не причинять вред серверу.",
+        "Запрещено создавать твинки на игровом сервере."
+      ],
+      "mods": {
+        "title": "Запрещённые модификации.",
+        "text": "Запрещено использовать модификации дающие игроку преимущество над игроком/системой сервера.",
+        "listLabel": "Список запрещённых модов",
+        "list": [
+          {
+            "name": "Inventory Profiles Next",
+            "note": "запрещен, если вы не добавили тотем в черный список. Запрещен, если вы используете авто одевание брони"
+          },
+          {
+            "name": "TweakerMore",
+            "note": ""
+          },
+          {
+            "name": "TweakerPlus",
+            "note": ""
+          },
+          {
+            "name": "Better Armor Swap",
+            "note": ""
+          },
+          {
+            "name": "SeedCracker",
+            "note": ""
+          },
+          {
+            "name": "Autototem",
+            "note": ""
+          },
+          {
+            "name": "Quick Elytra (Quick Hotkeys)",
+            "note": ""
+          },
+          {
+            "name": "Bridging Mod",
+            "note": ""
+          },
+          {
+            "name": "Oh My Minecraft Client",
+            "note": ""
+          },
+          {
+            "name": "BedrockIfy",
+            "note": "включено строительство, как на бедроке"
+          },
+          {
+            "name": "Jump Over Fences",
+            "note": ""
+          },
+          {
+            "name": "Inventory Tabs",
+            "note": ""
+          },
+          {
+            "name": "Baritone",
+            "note": ""
+          },
+          {
+            "name": "Freecam",
+            "note": ""
+          },
+          {
+            "name": "No Chat Reports",
+            "note": ""
+          },
+          {
+            "name": "Xray",
+            "note": ""
+          }
+        ]
+      },
+      "bugs": {
+        "title": "Баги и недоработки.",
+        "text": "Запрещено использовать любые баги и недоработки игры/сервера, а также дюп и ему подобные.\nЕсли вы нашли баг рекомендуется сообщить администрации",
+        "buttonLabel": "Сообщить о баге",
+        "buttonUrl": "https://discord.com/channels/1124432519895457882/1135604397662019624"
+      },
+      "chat": {
+        "title": "Чат сервера.",
+        "text": "Запрещены любые оскорбления участников сервера, запрещен флуд и спам в глобальный и локальный чат, а также реклама сторонних проектов. Запрещено обсуждение политики в любом виде."
+      },
+      "farms": {
+        "title": "Запрещённые фермы.",
+        "items": [
+          "Ферма визер голов",
+          "Ферма шалкеров",
+          "Ферма трезубцев",
+          "Постройка любых гига ферм причиняющих вред серверу"
+        ]
+      },
+      "blocks": [],
+      "bg": "",
+      "hidden": false
+    },
+    "warning": [
+      "Внимание!",
+      "Администрация сервера имеет право забанить вас даже в тех случаях, которые не указаны в правилах.",
+      "Из правил бывают исключения."
+    ],
+    "blocks": [],
+    "groups": []
+  },
+  "faq": {
+    "title": "Частые вопросы",
+    "items": [
+      {
+        "q": "Какая версия Minecraft нужна?",
+        "a": "Актуальная версия сервера: {version}.",
+        "buttons": [],
+        "blocks": [],
+        "bg": ""
+      },
+      {
+        "q": "Нужна ли лицензия Minecraft?",
+        "a": "Да",
+        "buttons": [],
+        "blocks": [],
+        "bg": ""
+      },
+      {
+        "q": "Как сообщить о нарушении?",
+        "a": "",
+        "buttons": [
+          {
+            "label": "Сообщить о баге и т.п.",
+            "url": "https://discord.com/channels/1124432519895457882/1135604397662019624"
+          },
+          {
+            "label": "Сообщить о правонарушении",
+            "url": "https://discord.com/channels/1124432519895457882/1134447647739101184"
+          }
+        ],
+        "blocks": [],
+        "bg": ""
+      },
+      {
+        "q": "Как присоединиться к серверу?",
+        "a": "Скопируй IP {ip}, открой Minecraft → Сетевая игра → Добавить сервер и вставь адрес.",
+        "buttons": [],
+        "blocks": [],
+        "bg": ""
+      },
+      {
+        "q": "Какие плагины на сервере?",
+        "a": "",
+        "buttons": [],
+        "blocks": [
+          {
+            "type": "split",
+            "layout": "showcase",
+            "look": "minimal",
+            "icon": "@sliders",
+            "title": "Кастомные диски",
+            "subtitle": "",
+            "text": "[Сайт для получения URL-mp3 ссылки](https://www.cutyt.com/)",
+            "url": "/uploads/6a1d38bb-file.mp4",
+            "kind": "auto",
+            "side": "right",
+            "ratio": "50",
+            "valign": "center",
+            "caption": "",
+            "accent": "#9fb3c8",
+            "points": [],
+            "font": "",
+            "size": "",
+            "pos": "bottom",
+            "align": "",
+            "width": "75",
+            "bg": ""
+          },
+          {
+            "type": "split",
+            "layout": "showcase",
+            "look": "minimal",
+            "icon": "@cube",
+            "title": "Омывание бетона",
+            "subtitle": "",
+            "text": "",
+            "url": "/uploads/05a05916-file.mp4",
+            "kind": "auto",
+            "side": "right",
+            "ratio": "50",
+            "valign": "center",
+            "caption": "",
+            "accent": "#9fb3c8",
+            "points": [],
+            "font": "",
+            "size": "",
+            "pos": "bottom",
+            "align": "",
+            "width": "75",
+            "bg": ""
+          },
+          {
+            "type": "split",
+            "layout": "showcase",
+            "look": "minimal",
+            "icon": "🔒",
+            "title": "Блокировка карт",
+            "subtitle": "",
+            "text": "",
+            "url": "/uploads/f513a01d-YTSave_YouTube_Media_2FXBieMv65I_Map_001.mp4",
+            "kind": "auto",
+            "side": "right",
+            "ratio": "50",
+            "valign": "center",
+            "caption": "",
+            "accent": "#9fb3c8",
+            "points": [],
+            "font": "",
+            "size": "",
+            "pos": "bottom",
+            "align": "",
+            "width": "75",
+            "bg": ""
+          },
+          {
+            "type": "split",
+            "layout": "showcase",
+            "look": "minimal",
+            "icon": "❖",
+            "title": "Смена скина",
+            "subtitle": "",
+            "text": "*/skin set [ник]*",
+            "url": "/uploads/7bc20e26-YTSave_YouTube_Media_u3XGayq0Q8Y_Skin_00.mp4",
+            "kind": "auto",
+            "side": "right",
+            "ratio": "50",
+            "valign": "center",
+            "caption": "",
+            "accent": "#9fb3c8",
+            "points": [],
+            "font": "",
+            "size": "",
+            "pos": "bottom",
+            "align": "",
+            "width": "75",
+            "bg": "",
+            "color": ""
+          },
+          {
+            "type": "split",
+            "layout": "showcase",
+            "look": "minimal",
+            "icon": "@check",
+            "title": "Быстрое собирание урожая",
+            "subtitle": "",
+            "text": "",
+            "url": "/uploads/06f717fe-YTSave_YouTube_Media_Fv5-cP3ir0s_ClickHa.mp4",
+            "kind": "auto",
+            "side": "right",
+            "ratio": "50",
+            "valign": "center",
+            "caption": "",
+            "accent": "#9fb3c8",
+            "points": [],
+            "font": "",
+            "size": "",
+            "pos": "bottom",
+            "align": "",
+            "width": "75",
+            "bg": ""
+          },
+          {
+            "type": "split",
+            "layout": "showcase",
+            "look": "minimal",
+            "icon": "@globe",
+            "title": "Радио",
+            "subtitle": "",
+            "text": "",
+            "url": "/uploads/70b2b1d1-YTSave_YouTube_Media_jXCkZUahKgE_Radio_0.mp4",
+            "kind": "auto",
+            "side": "right",
+            "ratio": "50",
+            "valign": "center",
+            "caption": "",
+            "accent": "#9fb3c8",
+            "points": [],
+            "font": "",
+            "size": "",
+            "pos": "bottom",
+            "align": "",
+            "width": "75",
+            "bg": ""
+          },
+          {
+            "type": "split",
+            "layout": "showcase",
+            "look": "minimal",
+            "icon": "⚔",
+            "title": "Подземелья",
+            "subtitle": "Для совместного прохождения",
+            "text": "*/ldungeon party*",
+            "url": "/uploads/5335839d-YTSave_YouTube_Media_Fq19uqxBTV0___001_1.mp4",
+            "kind": "auto",
+            "side": "right",
+            "ratio": "50",
+            "valign": "center",
+            "caption": "",
+            "accent": "#9fb3c8",
+            "points": [],
+            "font": "",
+            "size": "",
+            "pos": "bottom",
+            "align": "",
+            "width": "75",
+            "bg": ""
+          },
+          {
+            "type": "split",
+            "layout": "showcase",
+            "look": "minimal",
+            "icon": "⬢",
+            "title": "Супер губка",
+            "subtitle": "",
+            "text": "",
+            "url": "/uploads/d4275c6a-YTSave_YouTube_Media_wUeWmLm7Hpc___001_1.mp4",
+            "kind": "auto",
+            "side": "right",
+            "ratio": "50",
+            "valign": "center",
+            "caption": "",
+            "accent": "#9fb3c8",
+            "points": [],
+            "font": "",
+            "size": "",
+            "pos": "bottom",
+            "align": "",
+            "width": "75",
+            "bg": ""
+          }
+        ],
+        "bg": ""
+      }
+    ],
+    "blocks": []
+  },
+  "footer": {
+    "text": "Minecraft сервер для тех, кто хочет играть по-своему.",
+    "copyright": "© 2026 DLRN. Не связан с Mojang Studios.",
+    "right": "Made for Minecraft players.",
+    "blocks": []
+  },
+  "sections": [],
+  "layout": {
+    "order": [
+      "hero",
+      "stats",
+      "project",
+      "features",
+      "join",
+      "rules",
+      "faq"
+    ],
+    "hidden": [],
+    "colors": {
+      "hero": "",
+      "stats": "",
+      "project": "",
+      "features": "",
+      "join": "",
+      "rules": "",
+      "faq": "",
+      "footer": ""
+    }
+  },
+  "ui": {
+    "navHome": "Главная",
+    "navProject": "О проекте",
+    "navFeatures": "Возможности",
+    "navRules": "Правила",
+    "navFaq": "FAQ",
+    "headerPlay": "Играть",
+    "heroPlay": "Начать играть",
+    "heroMore": "Узнать больше",
+    "heroIpLabel": "IP сервера",
+    "heroOnline": "игроков онлайн",
+    "statOnline": "Игроков онлайн",
+    "statUptimeValue": "24/7",
+    "statUptime": "Доступность",
+    "statVersion": "Версия Minecraft",
+    "statMoreValue": "∞",
+    "statMore": "Возможностей",
+    "labelProject": "01 / О ПРОЕКТЕ",
+    "labelFeatures": "02 / ВОЗМОЖНОСТИ",
+    "labelJoin": "03 / ПРИСОЕДИНИТЬСЯ",
+    "labelRules": "04 / ПРАВИЛА",
+    "labelFaq": "05 / FAQ",
+    "joinIpLabel": "IP СЕРВЕРА",
+    "joinCopy": "Скопировать IP",
+    "footerRules": "Правила",
+    "footerFaq": "FAQ",
+    "footerPlay": "Играть",
+    "msgCopied": "IP скопирован!",
+    "msgCopiedShort": "Скопировано!"
+  }
+}
