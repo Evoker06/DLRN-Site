@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <title>DLRN — конструктор сайта</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <main id="login" class="login">
+    <h1>Вход в управление</h1>
+    <input id="u" placeholder="Логин" autocomplete="username">
+    <input id="p" type="password" placeholder="Пароль" autocomplete="current-password">
+    <button id="go">Войти</button>
+    <p id="err" class="err"></p>
+  </main>
+  <div id="panel" hidden>
+    <header class="bar">
+      <b>DLRN · конструктор</b><span id="who"></span>
+      <div class="seg" id="modes"><button data-m="b" class="on" title="Правка прямо на странице">Конструктор</button><button data-m="f" title="Все поля списком">Все поля</button></div>
+      <div class="seg" id="devs"><button data-w="100%" class="on" title="Компьютер">🖥</button><button data-w="820px" title="Планшет">▭</button><button data-w="390px" title="Телефон">📱</button></div>
+      <button id="undo" class="ghost" title="Отменить (Ctrl+Z)" disabled>↶</button><button id="redo" class="ghost" title="Повторить (Ctrl+Y)" disabled>↷</button>
+      <span id="dirty" class="dirty" hidden>● не сохранено</span>
+      <button id="save" title="Ctrl+S">Сохранить</button><button id="out" class="ghost">Выйти</button><span id="msg"></span>
+    </header>
+    <div id="builder">
+      <aside id="tree"></aside>
+      <section id="canvas"><iframe id="frame" title="Предпросмотр сайта"></iframe></section>
+      <aside id="insp"></aside>
+    </div>
+    <div id="etb" class="etb" hidden></div>
+    <div id="root" class="root" hidden></div>
+  </div>
+  <script src="admin.js"></script>
+</body>
+</html>

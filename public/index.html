@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080a0d">
+  <title>DLRN — Minecraft сервер</title>
+  <meta name="description" content="DLRN — Minecraft сервер. Играй, строй, развивайся.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="header">
+    <a class="logo" href="#home" aria-label="DLRN"><span class="logo-mark">D</span><span>DLRN</span></a>
+    <nav class="nav" id="nav"><a href="#home">Главная</a><a href="#project">О проекте</a><a href="#features">Возможности</a><a href="#rules">Правила</a><a href="#faq">FAQ</a></nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Открыть меню">☰</button>
+    <a class="discord-btn" href="#join">Играть</a>
+  </header>
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> <span data-t="hero.eyebrow"></span></div>
+        <h1><em data-t="hero.title1"></em><br><span data-t="hero.title2"></span></h1>
+        <p class="hero-text" data-t="hero.text"></p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#join">Начать играть <span>→</span></a><a class="btn btn-ghost" href="#project">Узнать больше</a></div>
+        <div class="server-mini"><div><small>IP сервера</small><strong data-t="site.ip"></strong></div><button class="copy-btn" id="copyIp" title="Скопировать IP">⧉</button></div>
+      </div>
+      <div class="hero-art" aria-label="Интерактивная 3D голова DLRN">
+        <button class="head-stage" id="minecraftHead" aria-label="Нажать на голову">
+          <span class="head-shadow"></span>
+          <span class="head-3d"><span class="head-face front"><i></i><i></i></span><span class="head-face back"></span><span class="head-face right"></span><span class="head-face left"></span><span class="head-face top"></span><span class="head-face bottom"></span></span>
+        </button>
+        <div class="head-speech" id="headSpeech" aria-live="polite"></div>
+        <div class="hero-badge"><span class="status-dot"></span><div><b id="heroOnline">—</b><small>игроков онлайн</small></div></div>
+      </div>
+    </section>
+    <section class="stats section">
+      <div class="stat"><strong id="online">—</strong><span>Игроков онлайн</span></div>
+      <div class="stat"><strong>24/7</strong><span>Доступность</span></div>
+      <div class="stat"><strong id="gameVersion" class="ver">—</strong><span>Версия Minecraft</span></div>
+      <div class="stat"><strong>∞</strong><span>Возможностей</span></div>
+    </section>
+    <section class="section project-section" id="project">
+      <div class="section-label">01 / О ПРОЕКТЕ</div>
+      <div class="project-grid">
+        <div><h2><span data-t="about.title1"></span><br><em data-t="about.title2"></em></h2></div>
+        <div class="about-text" id="aboutText"></div>
+      </div>
+      <div class="socials" id="socials"></div>
+    </section>
+    <section class="section" id="features">
+      <div class="section-label">02 / ВОЗМОЖНОСТИ</div>
+      <h2 data-t="features.title"></h2>
+      <div class="cards" id="cards"></div>
+    </section>
+    <section class="join section" id="join">
+      <div class="join-inner">
+        <div><div class="section-label">03 / ПРИСОЕДИНИТЬСЯ</div><h2 data-t="join.title"></h2><p data-t="join.text"></p></div>
+        <div class="join-box"><span>IP СЕРВЕРА</span><strong data-t="site.ip"></strong><button class="btn btn-primary" id="copyJoin">Скопировать IP</button><small id="copyMessage" class="copy-message"></small></div>
+      </div>
+    </section>
+    <section class="section rules" id="rules">
+      <div class="section-label">04 / ПРАВИЛА</div>
+      <h2 data-t="rules.title"></h2>
+      <div class="rules-block discord-rules" id="discordRules"></div>
+      <div class="rules-block minecraft-rules" id="mcRules"></div>
+      <div class="warning" id="warning"></div>
+    </section>
+    <section class="section faq" id="faq">
+      <div class="section-label">05 / FAQ</div>
+      <h2 data-t="faq.title"></h2>
+      <div class="faq-list" id="faqList"></div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-main"><div class="logo"><span class="logo-mark">D</span><span>DLRN</span></div><p data-t="footer.text"></p><div class="footer-links"><a href="#rules">Правила</a><a href="#faq">FAQ</a><a href="#join">Играть</a></div></div>
+    <div class="footer-bottom"><span data-t="footer.copyright"></span><span data-t="footer.right"></span></div>
+  </footer>
+  <div class="toast" id="toast">IP скопирован!</div>
+  <button class="top-btn" id="topBtn" aria-label="Наверх">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
